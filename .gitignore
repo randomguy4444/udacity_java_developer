@@ -1,1 +1,13 @@
-*.class
+# First, ignore everything
+*
+# Now, whitelist anything that's a directory
+!*/
+# And all the file types you're interested in.
+!*.c
+!*.cpp
+!*.cc
+!*.h
+!*.sh
+!README.md
+!Makefile
+!*.java
