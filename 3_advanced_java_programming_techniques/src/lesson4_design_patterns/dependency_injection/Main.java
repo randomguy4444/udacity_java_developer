@@ -1,5 +1,6 @@
 package lesson4_design_patterns.dependency_injection;
-
+import com.google.inject.Guice;
+import com.google.inject.Injector;
 import java.nio.file.Path;
 import java.time.Duration;
 import java.util.Arrays;
